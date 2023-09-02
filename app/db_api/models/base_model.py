@@ -7,5 +7,5 @@ class BaseModel(Base):
     __abstract__ = True
 
     id = Column(Integer, primary_key=True)
-    created_at = Column(DateTime())
-    updated_at = Column(DateTime())
+    created_at = Column(DateTime(), nullable=False)
+    updated_at = Column(DateTime(), nullable=False)
