@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tg-bot-event-remindres"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry <dz5011@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tg_bot_event_remindres"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
