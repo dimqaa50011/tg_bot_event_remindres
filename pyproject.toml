@@ -9,6 +9,9 @@ packages = [{include = "tg_bot_event_remindres"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+sqlalchemy = "^2.0.20"
+asyncpg = "^0.28.0"
+environs = "^9.5.0"
 
 
 [tool.poetry.group.dev.dependencies]
